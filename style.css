@@ -58,6 +58,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.text p {
+  line-height: 1.5rem;
+}
+
 .rating-btns-container {
   display: flex;
   justify-content: space-between;
@@ -95,6 +99,23 @@ body {
 
 .hidden {
   display: none;
+}
+
+.thank-you-card {
+  align-items: center;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.result-text {
+  background-color: hsla(216, 12%, 54%, 0.1);
+  border-radius: 20px;
+  color: hsla(25, 97%, 53%, 0.7);
+  padding: 0.4rem 1.2rem;
+}
+
+.text .heading {
+  margin-bottom: 0.5rem;
 }
 
 .attribution {
