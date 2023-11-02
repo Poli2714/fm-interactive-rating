@@ -129,6 +129,13 @@ body {
 
 .attribution {
   color: hsl(228, 45%, 44%);
-  font-size: 11px;
+  font-size: 12px;
+  padding-bottom: 0.3rem;
   text-align: center;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  text-decoration: none;
 }
