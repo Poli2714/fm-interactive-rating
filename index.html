@@ -23,27 +23,53 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <!-- Rating state start -->
+    <main class="container">
+      <section class="rating-card">
+        <button class="star">
+          <img
+            src="./images/icon-star.svg"
+            alt="star icon"
+            class="icon"
+            width="20"
+          />
+        </button>
+        <h1 class="heading">How did we do?</h1>
+        <p class="ask-for-feedback">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating-btns-container">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+        </div>
+        <button class="submit-btn">Submit</button>
+      </section>
+      <section class="thank-you-card hidden">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="Thank you illustration"
+          class="thank-you"
+          width="150"
+        />
+        <p class="result-text">
+          You selected <span class="user-rating">4</span> out of 5
+        </p>
+        <h2 class="heading">Thank you!</h2>
+        <p class="thank-you-text">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+    </main>
 
-    How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
-
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
-
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </footer>
   </body>
 </html>
