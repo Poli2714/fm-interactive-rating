@@ -139,3 +139,55 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    gap: 1.5rem;
+    max-width: 330px;
+    padding: 1.5rem 1.5rem 2rem;
+  }
+
+  .icon {
+    width: 13px;
+  }
+
+  .star,
+  .btn {
+    height: 42px;
+    width: 42px;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .text p {
+    line-height: 1.2rem;
+  }
+
+  .submit-btn {
+    font-size: 0.7rem;
+  }
+
+  .thank-you-card {
+    gap: 1.8rem;
+    padding: 2rem 1.5rem 2.5rem;
+  }
+
+  .thank-you-card img {
+    width: 130px;
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .attribution {
+    font-size: 10px;
+  }
+}
